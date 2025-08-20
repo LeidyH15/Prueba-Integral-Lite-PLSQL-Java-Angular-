@@ -10,6 +10,7 @@ Este proyecto contiene el diseño y la implementación de un modelo relacional e
 03_datos_prueba.sql:	Inserción de datos de prueba para validar relaciones y auditoría.
 04_consultas_validacion.sql:	Consultas para verificar integridad, relaciones y filtros.
 05_datos_prueba.sql: Datos de prueba.
+06_Script_funcion_reporte_comerciantes.
 README.md:	Documentación del modelo, objetivos y estructura técnica.
 modelo_ERD.drawio: Modelo de datos.
 
