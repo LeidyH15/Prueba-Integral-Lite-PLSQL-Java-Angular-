@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="Modelo ERD Reto 01" id="1MAaLyiA2ada8GfjLfUk">
+    <mxGraphModel dx="786" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wfgdkJIoT-CURrNm5PJG-1" value="Usuario" style="shape=swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-160" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wfgdkJIoT-CURrNm5PJG-13" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;- UsuarioID (PK)&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;- Nombre&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;- Correo&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;- Contraseña&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI VSS (Regular)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;- Rol&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wfgdkJIoT-CURrNm5PJG-1">
+          <mxGeometry x="30" y="50" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wfgdkJIoT-CURrNm5PJG-2" value="Comerciante" style="shape=swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="15" y="120" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wfgdkJIoT-CURrNm5PJG-14" value="&lt;br&gt;- ComercianteID (PK)&lt;br&gt;- Nombre_RazonSocial&lt;br&gt;- Municipio&lt;br&gt;- Teléfono&lt;br&gt;- Correo&lt;br&gt;- FechaRegistro&lt;br&gt;- Estado&lt;br&gt;- FechaActualización&lt;br&gt;- UsuarioID (FK)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="wfgdkJIoT-CURrNm5PJG-2">
+          <mxGeometry x="35" y="50" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wfgdkJIoT-CURrNm5PJG-3" value="Establecimiento" style="shape=swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="132.5" width="240" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="wfgdkJIoT-CURrNm5PJG-15" value="- EstablecimientoID (PK)&lt;br&gt;- Nombre&lt;br&gt;- Ingresos&lt;br&gt;- NumEmpleados&lt;br&gt;- ComercianteID (FK)&lt;br&gt;- FechaActualización&lt;br&gt;- UsuarioID (FK)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="wfgdkJIoT-CURrNm5PJG-3">
+          <mxGeometry x="35" y="42.5" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wfgdkJIoT-CURrNm5PJG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="wfgdkJIoT-CURrNm5PJG-1" target="wfgdkJIoT-CURrNm5PJG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfgdkJIoT-CURrNm5PJG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="wfgdkJIoT-CURrNm5PJG-1" target="wfgdkJIoT-CURrNm5PJG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfgdkJIoT-CURrNm5PJG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="wfgdkJIoT-CURrNm5PJG-2" target="wfgdkJIoT-CURrNm5PJG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
