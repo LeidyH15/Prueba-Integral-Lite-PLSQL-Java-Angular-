@@ -33,7 +33,7 @@ INSERT INTO Comerciante (ComercianteID, Nombre, Estado, Municipio, UsuarioID)
 VALUES (105, 'Verduras Express', 'Inactivo', 'Neiva', 1);
 
 -- ==================================================================
--- 🏬 Establecimientos (10 registros distribuidos aleatoriamente)
+-- Establecimientos (10 registros distribuidos aleatoriamente)
 -- ==================================================================
 
 -- Comerciante 101: 3 establecimientos
@@ -72,7 +72,7 @@ INSERT INTO Establecimiento (EstablecimientoID, Nombre, ComercianteID, UsuarioID
 VALUES (1010, 'Punto Neiva', 105, 2);
 
 -- ======================================
--- ✅ Validación rápida
+-- Validación rápida
 -- ======================================
 -- SELECT COUNT(*) FROM Usuario;
 -- SELECT COUNT(*) FROM Comerciante;
