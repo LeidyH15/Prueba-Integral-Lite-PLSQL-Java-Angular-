@@ -84,4 +84,10 @@ public class ComercianteService {
             .usuarioActualizacion(c.getUsuarioActualizacion())
             .build();
     }
+    
+    public ComercianteResponseDTO buscarPorId(Long id) {
+        Comerciante c = repository.findById(id).orElseThrow(() -> new RuntimeException("No encontrado"));
+        return mapToResponse(c);
+    }
+
 }
