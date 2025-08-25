@@ -11,4 +11,6 @@ public interface ComercianteRepository extends JpaRepository<Comerciante, Long>,
 
     @Query("SELECT DISTINCT c.municipio FROM Comerciante c WHERE c.municipio IS NOT NULL")
     List<String> findDistinctMunicipios();
+    
+    List<Comerciante> findByEstadoTrue();
 }

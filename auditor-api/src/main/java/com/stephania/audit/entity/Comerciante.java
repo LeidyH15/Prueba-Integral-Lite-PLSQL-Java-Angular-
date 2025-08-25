@@ -1,6 +1,7 @@
 package com.stephania.audit.entity;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -49,6 +50,9 @@ public class Comerciante {
 
 	@Column(name = "fecha_actualizacion")
 	private LocalDateTime fechaActualizacion;
+	
+	@OneToMany(mappedBy = "comerciante")
+    private List<Establecimiento> establecimientos;
 
 	@PreUpdate
 	public void preUpdate() {
@@ -139,5 +143,14 @@ public class Comerciante {
 	public void setFechaActualizacion(LocalDateTime fechaActualizacion) {
 		this.fechaActualizacion = fechaActualizacion;
 	}
+
+	public List<Establecimiento> getEstablecimientos() {
+		return establecimientos;
+	}
+
+	public void setEstablecimientos(List<Establecimiento> establecimientos) {
+		this.establecimientos = establecimientos;
+	}
+	
 
 }
